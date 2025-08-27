@@ -1,8 +1,35 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <script src="index.js"></script>
-    </body>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Orbitron:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="top">
+        <h1 id="headingEl">Metric/Imperical Unit Conversion</h1>
+        <input type="number" id="inputEl" />
+        <button id="btn">Convert</button>
+      </div>
+      <div class="bottom">
+        <div class="outputEl">
+          <h3 class="heading">Length (Meter/Feet)</h3>
+          <p id="length" class="output"></p>
+        </div>
+        <div class="outputEl">
+          <h3 class="heading">Volume (Liters/Gallons)</h3>
+          <p id="volume" class="output"></p>
+        </div>
+        <div class="outputEl">
+          <h3 class="heading">Mass (Kilograms/Pounds)</h3>
+          <p id="mass" class="output"></p>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
 </html>
